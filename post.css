@@ -1,0 +1,127 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+    min-height: 100vh;
+}
+
+
+.main-div {
+    width: 60%;
+    margin: 40px auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+
+#first-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+#post-btn {
+    font-size: 16px;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    border: none;
+    cursor: pointer;
+    background-color: #1976d2;
+    color: white;
+    transition: 0.3s ease;
+    font-weight: bold;
+}
+
+#post-btn:hover {
+    background-color: #125aa0;
+    transform: scale(1.05);
+}
+
+
+#second-divForJS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+
+.post-field {
+    background-color: #f5f5f5;
+    width: 500px;
+    height: 120px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 15px;
+    resize: none;
+    outline: none;
+}
+
+
+.postData {
+    background-color: #43a047;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 45px;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+.postData:hover {
+    background-color: #2e7d32;
+}
+
+
+#third-divForJS {
+    margin-top: 20px;
+}
+
+
+.paragraph {
+    background-color: #e3f2fd;
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    line-height: 1.5;
+    border-left: 5px solid #1976d2;
+    word-wrap: break-word;
+}
+
+.logout-div {
+    display: flex;
+    justify-content: flex-end;
+}
+.logout {
+    font-size: 16px;
+    border-radius: 10px;
+    width: 90px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: #1976d2;
+    color: white;
+    transition: 0.3s ease;
+    font-weight: bold;
+}
+
+.logout:hover {
+    background-color: #125aa0;
+    transform: scale(1.05);
+}
